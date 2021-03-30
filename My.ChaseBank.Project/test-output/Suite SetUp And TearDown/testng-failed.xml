@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite SetUp And TearDown]">
+  <test thread-count="5" name="Test BeforeSuite AfterSuite(failed)">
+    <classes>
+      <class name="variables.Firefox">
+        <methods>
+          <include name="getUrl"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- variables.Firefox -->
+    </classes>
+  </test> <!-- Test BeforeSuite AfterSuite(failed) -->
+</suite> <!-- Failed suite [Suite SetUp And TearDown] -->

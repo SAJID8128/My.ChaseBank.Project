@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite SetUp And TearDown" duration-ms="5839" started-at="2021-03-30T02:39:56 EDT" finished-at="2021-03-30T02:40:01 EDT">
+  <suite name="Default suite" duration-ms="9182" started-at="2021-03-30T17:34:02 EDT" finished-at="2021-03-30T17:34:11 EDT">
     <groups>
     </groups>
-    <test name="Test BeforeSuite AfterSuite" duration-ms="5839" started-at="2021-03-30T02:39:56 EDT" finished-at="2021-03-30T02:40:01 EDT">
-      <class name="variables.Firefox">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:variables.Firefox@184f6be2]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2021-03-30T02:39:56 EDT" finished-at="2021-03-30T02:39:56 EDT">
+    <test name="Default test" duration-ms="9182" started-at="2021-03-30T17:34:02 EDT" finished-at="2021-03-30T17:34:11 EDT">
+      <class name="variables.Chrome">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:variables.Chrome@167fdd33]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2021-03-30T17:34:02 EDT" finished-at="2021-03-30T17:34:02 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:variables.Firefox@184f6be2]" name="openBrowser" is-config="true" duration-ms="5252" started-at="2021-03-30T02:39:56 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:variables.Chrome@167fdd33]" name="openBrowser" is-config="true" duration-ms="8978" started-at="2021-03-30T17:34:02 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:variables.Firefox@184f6be2]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:variables.Chrome@167fdd33]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:variables.Firefox@184f6be2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:variables.Chrome@167fdd33]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:variables.Firefox@184f6be2]" name="getTitle" duration-ms="10" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:variables.Chrome@167fdd33]" name="getTitle" duration-ms="10" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:variables.Firefox@184f6be2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:variables.Chrome@167fdd33]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="getUrl()[pri:0, instance:variables.Firefox@184f6be2]" name="getUrl" duration-ms="10" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUrl -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:variables.Firefox@184f6be2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:variables.Chrome@167fdd33]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:variables.Firefox@184f6be2]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="geturl()[pri:0, instance:variables.Chrome@167fdd33]" name="geturl" duration-ms="6" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:variables.Firefox@184f6be2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        </test-method> <!-- geturl -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:variables.Chrome@167fdd33]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:variables.Firefox@184f6be2]" name="tearDown" is-config="true" duration-ms="534" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:variables.Chrome@167fdd33]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:variables.Chrome@167fdd33]" name="tearDown" is-config="true" duration-ms="154" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:variables.Firefox@184f6be2]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-03-30T02:40:01 EDT" finished-at="2021-03-30T02:40:01 EDT">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:variables.Chrome@167fdd33]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-03-30T17:34:11 EDT" finished-at="2021-03-30T17:34:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- variables.Firefox -->
-    </test> <!-- Test BeforeSuite AfterSuite -->
-  </suite> <!-- Suite SetUp And TearDown -->
+      </class> <!-- variables.Chrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

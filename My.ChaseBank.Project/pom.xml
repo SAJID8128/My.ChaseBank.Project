@@ -1,22 +1,24 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>My.ChaseBank.Project</groupId>
-  <artifactId>My.ChaseBank.Project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-  
-  
-<!-- This is how we upgrade Java JRE -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>My.ChaseBank.Project</groupId>
+	<artifactId>My.ChaseBank.Project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+
+	<!-- This is how we upgrade Java JRE -->
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 
 
-<!-- dependencies mean all the jar files and we will get it from maven repository -->
+	<!-- dependencies mean all the jar files and we will get it from maven repository -->
 	<dependencies>
-	
-<!-- selenium dependency -->
+
+		<!-- selenium dependency -->
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -26,7 +28,7 @@
 
 
 
-<!-- browser dependency -->
+		<!-- browser dependency -->
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -34,8 +36,16 @@
 			<version>4.2.2</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.10</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
 
-  
-  
+
+
 </project>
